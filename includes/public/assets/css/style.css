@@ -1,0 +1,32 @@
+.ctable-pricing-table table tr th{
+	background: #EDEDED;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.ctable-pricing-table table tbody tr td{
+	background: #F7F7F7;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.roles-box {
+	margin-bottom: 20px;
+	float: right;
+}
+.roles-box select{
+	width: 140px;
+	border: 1px solid #ddd;
+	height: 35px;
+}
+.ctable-pricing-table table tfoot tr td .page-numbers{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+	display: inline-block;
+	text-decoration: none;
+	background: #F7F7F7;
+}
+.ctable-pricing-table table tfoot tr td .page-numbers.current{
+	background: #ddd;
+}
