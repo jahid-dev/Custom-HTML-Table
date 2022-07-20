@@ -114,6 +114,7 @@ if ( file_exists( CTABLE_PATH . 'includes/admin/ajax-callback.php' ) ) {
 
 function ctable_enqueue_front_script(){
   wp_enqueue_style('ctable-front-style', CTABLE_URL. 'includes/public/assets/css/style.css', array(), CTABLE_VERSION);
+  wp_enqueue_style('font-awesome', CTABLE_URL. 'includes/public/assets/css/font-awesome.min.css', array(), CTABLE_VERSION);
 
   wp_enqueue_script('ctable-script', CTABLE_URL. 'includes/public/assets/js/custom.js', array('jquery'), true, CTABLE_VERSION);
   wp_localize_script('ctable-script','ctable',

@@ -8,6 +8,9 @@
 	border: 1px solid #ddd;
 	padding: 10px;
 }
+.ctable-pricing-table table tr th a{
+	text-decoration: none !important;
+}
 .roles-box {
 	margin-bottom: 20px;
 	float: right;
